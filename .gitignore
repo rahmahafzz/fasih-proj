@@ -1,6 +1,13 @@
-node_modules
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+
+# env files
 .env
-dist
-build
+
+# misc
 .DS_Store
 *.log
