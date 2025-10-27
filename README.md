@@ -100,11 +100,11 @@ Create a .env file and fill in your credentials:
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/fasih-db
 JWT_SECRET=superSecretKey
-JWT_REFRESH_SECRET=1fc898fd0a474dcb6575acde7de8b604176b4a6c01f69c854b634cf6d81d65cbd9f24855b1872d9e4a3203e640eaa96c8ecee54ac7577832e2a32ba39cd88ff4
+JWT_REFRESH_SECRET=yourrefreshsecret
 ACCESS_TOKEN_EXPIRES_IN=7d
 REFRESH_TOKEN_EXPIRES_IN=30d
-EMAIL_USER=rahmahafez861@gmail.com
-EMAIL_PASS=tqne suhx tbbw bwwl
+EMAIL_USER=your_gmail_address
+EMAIL_PASS=your_password
 
 4️⃣ Run the Server
 npm run start
